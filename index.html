@@ -3,28 +3,272 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="clone-Flipkart">
-    <meta name="keywords" content="clone-Flipkart">
+    <meta name="description" content="clone-walden-bank">
+    <meta name="keywords" content="clone-walden-bank">
     <meta name="author" content="vikas p.s">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bed Sheet</title>
+    <title>Walden-bank-Home</title>
     <link rel="icon" href="." type="image/x-icon">
     <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- font awesome cdn -->
+
+    <link rel="stylesheet" href="./library/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style/common.css">
     <link rel="stylesheet" href="./style/style.css">
 </head>
 
 <body>
 
+    <!-- /* top_most */ -->
+    <div class="top_most_container">
+        <ul class="top_most">
+            <li><a href="#">EN ESPAÑOL</a> </li>
+            <li><a href="#">ABOUT US </a></li>
+            <li><a href="#">LOCATIONS </a></li>
+            <li><a href="#">CONTACT US </a></li>
+        </ul>
+    </div>
+    <!-- /* top_most */ -->
+    <!-- header -->
+    <div class="header_container">
+        <div class="header_section">
+            <img class="header_img" src="./images/logo-white.svg" alt="logo">
+            <ul class="header_list">
+                <li><a href="#">Personal Banking</a></li>
+                <li><a href="#">Business Banking</a></li>
+                <li><a href="#">Digital Banking</a></li>
+                <li><a href="#">Mortgage Banking</a></li>
+                <li><a href="#">Investment Banking</a></li>
+                <li><a href="#"><i class="fas fa-search"></i><span class="search_cnt">Search</span></a></li>
+                <li><button class="log_in_btn ft_white">Login <i class="fas fa-caret-down"></i></button></li>
+            </ul>
+            <ul class="header_rspn_list">
+                <li><button class="log_in_btn ft_white">Login <i class="fas fa-caret-down"></i></button></li>
+                <li><i class="fas search_rspn fa-search"></i></li>
+                <li><i class="fas fa-bars ft_white"></i></li>
+            </ul>
+        </div>
+    </div>
+    <!-- header -->
+    <div class="contact_us_container">
+        <div class="contact_us_section">
+            <div class="chat">CONTACT US <br> / CHAT</div>
+            <div class="appoint">SCHEDULE <br> AN APPOINMENT</div>
+        </div>
+    </div>
+    <!-- swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/slider-banner-2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./images/tablet-landscape-derrik.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./images/tablet-landscape.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./images/scotts-corners-drive-up-1279x536.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./images/scotts-1279x536.jpg" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- swiper -->
+    <!-- solution and service -->
+    <div class="per_solution_container">
+        <div class="per_sol_section">
+            <div class="per_title ft_green">Personalized Solutions. Exceptional Service.</div>
+            <div class="per_service">
+                <div class="service_card">
+                    <div class="service_crd_cnt"><img class="service_crd_img"
+                            src="./images/noun_coronavirus_3662420.svg" alt="covid"></div>
+                    <div class="service_title">
+                        COVID - 19 Resources
+                    </div>
+                </div>
+                <div class="service_card">
+                    <div class="service_crd_cnt"><img class="service_crd_img"
+                            src="./images/noun_mobile-wallet_3593510.svg" alt="wallet"></div>
+                    <div class="service_title">
+                        Mobile Wallet
+                    </div>
+                </div>
+                <div class="service_card">
+                    <div class="service_crd_cnt"><img class="service_crd_img"
+                            src="./images/noun_security-and-protection_2699108.svg" alt="security"></div>
+                    <div class="service_title">
+                        ID Theft Protection
+                    </div>
+                </div>
+                <div class="service_card">
+                    <div class="service_crd_cnt"><img class="service_crd_img"
+                            src="./images/noun_paper-shredder_324201.svg" alt="shreedder"></div>
+                    <div class="service_title">
+                        Community Shred Dates
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- solution and service -->
+    <!-- info tools  -->
+    <div class="info_tool_container">
+        <div class="info_tool_section"></div>
+        <div class="info_tool_title">The Information & Tools You Need
+            Just a Click Away...</div>
+    </div>
+    <div class="wsb_news_section">
+        <div class="wsb_left w-100 wsb_new">
+            <div class="wsb_left_cnt ft_white">
+                <div class="news_img_cnt"><img class="news_img" src="./images/note-pad.svg" alt="img"></div>
+                <div class="news_cnt">
+                    <div class="news_title">WSB in the News</div>
+                    <div class="news_para">Keep up with the latest news at Walden Savings Bank. We're online, on the air
+                        and
+                        out in Our Community.</div>
+                    <a class="news_learn_link ft_white" href="#">Learn Now <i class="fas fa-caret-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="wsb_right w-100 wsb_news"></div>
+    </div>
+    <div class="wsb_resources_section">
+        <div class="wsb_right w-100 wsb_resource">
+            <div class="wsb_left_cnt ft_white">
+                <div class="news_img_cnt"><img class="news_img" src="./images/new-2-1.svg" alt="img"></div>
+                <div class="news_cnt alter_font">
+                    <div class="news_title">Resources</div>
+                    <div class="news_para">We're here to help provide the information you need for you, your family or
+                        business.</div>
+                    <a class="news_learn_link ft_white" href="#">Learn Now <i class="fas fa-caret-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="wsb_left w-100  wsb_resources ">
+
+        </div>
+    </div>
+    <div class="wsb_community_section">
+        <div class="wsb_left w-100 wsb_community">
+            <div class="wsb_left_cnt ft_white">
+                <div class="news_img_cnt"><img class="news_img" src="./images/new3.svg" alt="img"></div>
+                <div class="news_cnt">
+                    <div class="news_title">The Community We Serve</div>
+                    <div class="news_para">Entering our 150th year, we have been proud to support and be a part of Our
+                        Community.</div>
+                    <a class="news_learn_link ft_white" href="#">Learn Now <i class="fas fa-caret-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="wsb_right w-100 wsb_communities"></div>
+    </div>
+    <!-- info tools  -->
+    <!-- Testimonials -->
+    <div class="test_container">
+        <div class="test_title ft_green">Testimonials </div>
+        <div class="test_card swiper mySwiper">
+            <div class="test_section swiper-wrapper">
+                <div class="test_cnt swiper-slide">
+                    <img class="test_img" src="./images/walden-girl.jpg" alt="test_img">
+                    <div class="test_para_cnt">
+                        <div class="test_para">“We have been with Walden Savings Bank for over 16 years now and they are
+                            awesome! This bank is very easy to deal with. Everyone is super friendly and knowledgeable.
+                            They
+                            answer any concerns we may have. Highly recommend this bank!”</div>
+                        <div class="test_para"><strong>What a Girl Wants- Sonia Sawhney</strong></div>
+                    </div>
+                </div>
+                <div class="test_cnt swiper-slide">
+                    <img class="test_img" src="./images/walden-girl.jpg" alt="test_img">
+                    <div class="test_para_cnt">
+                        <div class="test_para">“We have been with Walden Savings Bank for over 16 years now and they are
+                            awesome! This bank is very easy to deal with. Everyone is super friendly and knowledgeable.
+                            They
+                            answer any concerns we may have. Highly recommend this bank!”</div>
+                        <div class="test_para"><strong>What a Girl Wants- Sonia Sawhney</strong></div>
+                    </div>
+                </div>
+                <div class="test_cnt swiper-slide">
+                    <img class="test_img" src="./images/walden-girl.jpg" alt="test_img">
+                    <div class="test_para_cnt">
+                        <div class="test_para">“We have been with Walden Savings Bank for over 16 years now and they are
+                            awesome! This bank is very easy to deal with. Everyone is super friendly and knowledgeable.
+                            They
+                            answer any concerns we may have. Highly recommend this bank!”</div>
+                        <div class="test_para"><strong>What a Girl Wants- Sonia Sawhney</strong></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <!-- Testimonials -->
+    <!-- Join the Conversation -->
+
+    <div class="conversation_container">
+        <div class="conversation_section">
+            <div class="conversation_title ft_green">Join the Conversation </div>
+            <div class="conv_card_section">
+                <div class="conv_card">
+                    <div class="conv_time txt-right">11h</div>
+                    <div class="conv_img">
+                        <a href="#"><img class=" zoom conv_img_cnt" src="./images/conv-card-1.jpg" alt="card_img"></a>
+                    </div>
+                    <div class="conv_para">Making Strides Against Breast Cancer Plane Pull.... here come the
+                        photos!...🦋..."we floated in like butterflies and stung like bees"...lo</div>
+                    <div class="conv_sn txt-right"><img class="conv_fb" src="./images/fb.jpg" alt="facebook-logo"></div>
+                </div>
+                <div class="conv_card">
+                    <div class="conv_time txt-right">11h</div>
+                    <div class="conv_img">
+                        <a href="#"><img class="conv_img_cnt var-1" src="./images/walden-handson.jpg"
+                                alt="card_img"></a>
+                    </div>
+                    <div class="conv_para">We came, was saw, we pulled a plane! Team Walden Savings Bank participated in
+                        the Making Strides Against Breast Cancer Plane Pull fundraiser at New York Stewart International
+                        Airport. We all had a great time... photos coming next!</div>
+                    <div class="conv_sn txt-right"><img src="./images/fb.jpg" alt="facebook-logo"></div>
+                </div>
+                <div class="conv_card">
+                    <div class="conv_time txt-right">2d</div>
+                    <div class="conv_img">
+                        <a href="#"><img class="conv_img_cnt var-3" src="./images/conv-card-1.jpg" alt="card_img"></a>
+                    </div>
+                    <div class="conv_para">Walden Savings Bank is thrilled to participate in the American Cancer
+                        Society's Real Men Wear Pink Campaign for the 6th straight year. This year, Loan Servicing
+                        Manager Tyler Ryan is our Real Man and we hope we can count on you to donate and help Tyler
+                        reach his goal at <a href="#"> https://bit.ly/3a7bb4F. </a>
+                        Each day in October – Tyler will be adorned in pink attire to raise awareness and funds for
+                        Breast Cancer. Then on October 8th we are happy to be partnering with Angry Orchard for Drink
+                        Pink! We hope to see you there!</div>
+                    <div class="conv_sn txt-right"><img src="./images/fb.jpg" alt="facebook-logo"></div>
+                </div>
+                <div class="conv_card">
+                    <div class="conv_time txt-right">11h</div>
+                    <div class="conv_img">
+                        <a href="#"><img class="conv_img_cnt var-4" src="./images/conv-card-3.jpg" alt="card_img"></a>
+                    </div>
+                    <div class="conv_para">Tonight it was our extreme pleasure to see our very own Nichole Moretto
+                        recognized as one of the 2021 Orange County Rising Stars as chosen by the Junior League of
+                        Orange County, NY, Inc.! Congratulations to Nichole and all the honorees! ⭐️⭐️⭐️</div>
+                    <div class="conv_sn txt-right"><img src="./images/fb.jpg" alt="facebook-logo"></div>
+                </div>
+            </div>
+            <a class="load_more" href="#">Load More</a>
+        </div>
+    </div>
+    <!-- Join the Conversation -->
+    <!-- sign-up  -->
+    <div class="sign_up_container">
+        <div class="sign_up_section">
+            <span class="sign_title ft_green">Sign Up To Keep Informed</span>
+            <input class="sign_ip" type="text" placeholder="Your E-mail Here">
+            <a class="subscribe ft_white" href="#">SUBSCRIBE</a>
+        </div>
+
+    </div>
+    <!-- sign-up  -->
 
 
-
-
-
+    <script src="./library/swiper/swiper-bundle.min.js"></script>
 
     <script src="./library/jquery.min.js"></script>
     <script src="./script/script.js"></script>
