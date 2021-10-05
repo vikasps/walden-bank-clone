@@ -41,11 +41,11 @@ li {
   margin: 0;
 }
 .top_most li {
-  padding: 10px 0px;
-  margin-left: 30px;
+  padding: 13px 0px;
+  margin-left: 33px;
 }
 .top_most li a {
-  font-size: 17px;
+  font-size: 15px;
   color: white;
   font-weight: 700;
 }
@@ -67,7 +67,7 @@ li {
 .header_img {
   width: 138px;
   height: 52px;
-  padding-right: 80px;
+  padding-right: 77px;
 }
 .header_list {
   display: flex;
@@ -77,7 +77,7 @@ li {
 
 .header_list li {
   color: red;
-  width: 13%;
+  width: 130px;
   padding: 20px 0px;
   text-align: center;
   border-left: 1px solid forestgreen;
@@ -89,6 +89,16 @@ li {
   font-weight: 600;
   color: white;
 }
+
+.header_list li.search_area {
+  width: 152px;
+}
+.header_list li.invst {
+  width: 154px;
+}
+.search_area a {
+  text-align: center;
+}
 .search_cnt {
   padding-left: 15px;
 }
@@ -98,25 +108,62 @@ li {
   padding: 18px 0px;
 }
 .log_in_btn {
-  width: 145px;
-  padding: 5px 0px;
-  margin-left: 30px;
+  width: 134px;
+  padding: 3px 0px;
+  margin-left: 25px;
+  margin-top: -6px;
   background: #f97d21;
   border: 0;
   outline: 0;
   border-radius: 10px;
   font-family: "Open Sans", sans-serif;
-  font-size: 26px;
-  font-weight: 700;
+  font-size: 25px;
+  font-weight: 600;
 }
 .fa-caret-down {
-  font-size: 20px;
+  font-size: 25px;
   margin-left: 10px;
 }
 .header_rspn_list {
   display: none;
 }
 /* <!-- header --> */
+/* <!-- sign-up  --> */
+.sign_up_container {
+  width: 100%;
+  margin-top: 20px;
+}
+.sign_up_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign_title {
+  font-size: 26px;
+  font-weight: 700;
+}
+.sign_ip {
+  padding: 12px 10px;
+  width: 40%;
+  margin: 0px 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: #e4e8e5;
+}
+.sign_ip::placeholder {
+  font-weight: 600;
+}
+.subscribe {
+  background-color: #f97d21;
+  display: inline-block;
+  width: 10%;
+  text-align: center;
+  padding: 12px 0px;
+  border-radius: 10px;
+  font-weight: 900;
+}
+
+/* <!-- sign-up  --> */
 @media screen and (max-width: 1070px) {
   .header_list {
     display: none;
