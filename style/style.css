@@ -41,7 +41,7 @@
   width: 100%;
   background-color: #f4f8f5;
   z-index: 10;
-
+  padding-bottom: 50px;
   margin-top: 145px;
 }
 .per_sol_section {
@@ -247,7 +247,6 @@
 /* <!-- Testimonials --> */
 .test_container {
   width: 100%;
-
   margin-top: 209px;
   margin-left: -3px;
 }
@@ -297,6 +296,7 @@
   width: 100%;
   background-color: #f4f8f5;
   margin-top: 223px;
+  padding-bottom: 40px;
 }
 .conversation_section {
   width: 100%;

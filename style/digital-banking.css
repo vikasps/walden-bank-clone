@@ -1,0 +1,126 @@
+.ft_orange {
+  color: orange;
+  text-decoration: underline;
+}
+.bg_container {
+  background: url(../images/fall-hero-resized.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* .digi_section {
+  width: 100%;
+} */
+.digi_container {
+}
+.digi_section {
+  display: flex;
+  flex-direction: column;
+  width: 82%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.page_sub_title {
+  padding: 20px 0px;
+  font-size: 45px;
+  font-weight: 100;
+  text-align: center;
+}
+.page_sub_head {
+  font-weight: 500;
+}
+.digi_para {
+  color: #62656a;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+/* <!-- card_valvet --> */
+.main_container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 150px;
+  background-color: #ece9e9;
+}
+.val_section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 70px 0px;
+}
+.common_img {
+  width: 294px;
+  height: 294px;
+  position: absolute;
+  border-radius: 100%;
+}
+.val_img {
+  top: -108px;
+  left: -63px;
+}
+.val_title {
+  font-size: 45px;
+  font-weight: 600;
+}
+.val_top {
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-start;
+  width: 50%;
+}
+.w3_link {
+  width: 50%;
+  margin: 0 auto;
+  height: 40%;
+}
+.val_para {
+}
+.val_dwn_cnt {
+  display: flex;
+  justify-content: space-around;
+}
+.app_store {
+  padding-top: 20px;
+  width: 348px;
+  height: 90px;
+  margin-left: 10px;
+}
+/* <!-- card_valvet -->
+<!-- bank wise --> */
+.bank_section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 60px 0px;
+}
+.bnk_img {
+  top: -95px;
+  right: -58px;
+}
+.w4_link {
+  width: 50%;
+  height: 30%;
+}
+/* <!-- bank wise -->
+<!-- contact --> */
+.contact_section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 60px 0px;
+}
+.alter_width {
+  width: 83%;
+}
+.alter_text {
+  font-weight: 300;
+}
+.cont_img {
+  top: -95px;
+  left: -58px;
+}
+/* <!-- contact -->
+<!-- online --> */

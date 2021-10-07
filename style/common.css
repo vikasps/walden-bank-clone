@@ -132,6 +132,8 @@ li {
 .sign_up_container {
   width: 100%;
   margin-top: 20px;
+  background-color: #fff;
+  padding: 15px 0px;
 }
 .sign_up_section {
   display: flex;
@@ -163,6 +165,11 @@ li {
   font-weight: 900;
 }
 
+.main_container {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #ece9e9;
+}
 /* <!-- sign-up  --> */
 @media screen and (max-width: 1070px) {
   .header_list {

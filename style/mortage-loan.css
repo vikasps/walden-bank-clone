@@ -1,0 +1,467 @@
+.mortage_container {
+  margin-bottom: 47px;
+}
+.mortage_section {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+}
+.page_title {
+  font-size: 40px;
+  font-weight: 300;
+}
+.mort_cnt {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.page_para {
+  font-size: 18px;
+  font-weight: 700;
+  color: #64656a;
+  padding: 30px 0px;
+}
+.page_img {
+  width: 40%;
+}
+.mort_cnt-2 {
+}
+.ft_blac {
+  color: black;
+}
+.page_sub_para {
+  font-size: 12px;
+}
+.mort_card_section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mort_card {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #fff;
+}
+.mort_img {
+  width: 100%;
+}
+.padding_area {
+  padding: 0px 20px;
+}
+.mort_card_title {
+  margin-bottom: 13px;
+  color: #398956;
+  font-weight: 500;
+  font-size: 26px;
+}
+.mort_card_para {
+  border-bottom: 1px solid #e5e8ee;
+  line-height: 1.85;
+  color: #636363;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+.mort_btn {
+  font-size: 16px;
+  font-weight: 600;
+  color: #62656a;
+}
+.fa-caret-right {
+  color: orange;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.ft_orange {
+  color: orange;
+}
+/*
+<!-- loan calculator --> */
+.loan_container {
+}
+.loan_section {
+  width: 97%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.rates_section {
+  width: 40%;
+}
+.rates_table {
+  background-color: #fff;
+}
+.rates_table th {
+  background: #398956;
+  font-weight: 900;
+  font-size: 17px;
+  color: #fff;
+  text-align: center;
+}
+.rates_table td {
+  text-align: center;
+}
+.loan {
+  padding: 15px 0px;
+  padding-right: 50px;
+}
+.rate {
+  padding: 15px 10px;
+}
+.apr {
+  padding: 15px 0px;
+
+  padding-right: 30px;
+  padding-left: 10px;
+}
+.rate_bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.assume {
+  color: #337ab7;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.changes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.text-bold {
+  font-size: 13px;
+  font-weight: bold;
+}
+.text-mid {
+  font-size: 13px;
+}
+.started_section {
+  width: 50%;
+}
+.form_details {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.ip_for {
+  width: 215px;
+  height: 33px;
+  border: 2px solid gray;
+  border-radius: 3px;
+  position: relative;
+}
+.label_title {
+  display: flex;
+  flex-direction: column;
+}
+.mandatory {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-block;
+  content: "*";
+  width: 20px;
+  height: 20px;
+  background-color: darkblue;
+  color: red;
+}
+/*
+<!-- loan calculator --> */
+/* captcha area */
+
+.captcha {
+  background-color: #f9f9f9;
+  border: 2px solid #d3d3d3;
+  border-radius: 5px;
+  color: #4c4a4b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+  .captcha {
+    flex-direction: column;
+  }
+  .text {
+    margin: 0.5em !important;
+    text-align: center;
+  }
+  .logo {
+    align-self: center !important;
+  }
+  .spinner {
+    margin: 2em 0.5em 0.5em 0.5em !important;
+  }
+}
+
+.text {
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.spinner {
+  position: relative;
+  width: 2em;
+  height: 2em;
+  display: flex;
+  margin: 2em 1em;
+  align-items: center;
+  justify-content: center;
+}
+input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+input[type="checkbox"] + .checkmark {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  background-color: #fcfcfc;
+  border: 2.5px solid #c3c3c3;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+input[type="checkbox"] + .checkmark span {
+  content: "";
+  position: relative; /*
+	position:absolute;
+	border-bottom:3px solid;
+	border-right:3px solid;
+	border-color:#029f56;*/
+  margin-top: -3px;
+  transform: rotate(45deg);
+  width: 0.75em;
+  height: 1.2em;
+  opacity: 0;
+}
+input[type="checkbox"] + .checkmark > span:after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #029f56;
+}
+input[type="checkbox"] + .checkmark > span:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 3px;
+  bottom: 0;
+  right: 0;
+  background-color: #029f56;
+}
+input[type="checkbox"]:checked + .checkmark {
+  animation: 2s spin forwards;
+}
+input[type="checkbox"]:checked + .checkmark > span {
+  animation: 1s fadein 1.9s forwards;
+}
+input[type="checkbox"]:checked + .checkmark > span:after {
+  animation: 0.3s bottomslide 2s forwards;
+}
+input[type="checkbox"]:checked + .checkmark > span:before {
+  animation: 0.5s rightslide 2.2s forwards;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes bottomslide {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes rightslide {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  align-self: flex-end;
+  margin: 0.5em 1em;
+}
+.logo img {
+  height: 2em;
+  width: 2em;
+}
+.logo p {
+  color: #9d9ba7;
+  margin: 0;
+  font-size: 1em;
+  font-weight: 700;
+  margin: 0.4em 0 0.2em 0;
+}
+.logo small {
+  color: #9d9ba7;
+  margin: 0;
+  font-size: 0.8em;
+}
+@keyframes spin {
+  10% {
+    width: 0;
+    height: 0;
+    border-width: 6px;
+  }
+  30% {
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    border-width: 1em;
+    transform: rotate(0deg);
+    border-color: rgb(199, 218, 245);
+  }
+  50% {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    border-width: 4px;
+    border-color: rgb(199, 218, 245);
+    border-right-color: rgb(89, 152, 239);
+  }
+  70% {
+    border-width: 4px;
+    border-color: rgb(199, 218, 245);
+    border-right-color: rgb(89, 152, 239);
+  }
+  90% {
+    border-width: 4px;
+  }
+  100% {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    transform: rotate(720deg);
+    border-color: transparent;
+  }
+}
+::selection {
+  background-color: transparent;
+  color: teal;
+}
+
+.submit {
+  width: 20%;
+  padding: 20px 0px;
+}
+/* <!-- productss  --> */
+
+/* <!-- other products --> */
+
+.page_sub_title {
+  padding: 20px 0px;
+  font-size: 45px;
+  font-weight: 100;
+  text-align: center;
+}
+.page_sub_head {
+  font-weight: 500;
+}
+.products_container {
+  margin-top: 50px;
+}
+.products_section {
+}
+.products_card_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.products_card {
+  /* width: 22%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+.products_crd_img_cnt-1_1 {
+  background: url(../images/payroll.png);
+}
+
+.products_crd_img_cnt-1_2 {
+  background: url(../images/merchant.png);
+}
+.products_crd_img_cnt-1_3 {
+  background: url(../images/remote.png);
+}
+.products_crd_img_cnt-1_4 {
+  background: url(../images/branch_services_icon.png);
+}
+.products_img_area {
+  width: 210px;
+  height: 210px;
+  border-radius: 100%;
+  background-color: #f7f4f5;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+.hoever_before {
+  display: none;
+}
+.products_img_area:hover .hoever_before {
+  display: block;
+  background-color: #5c9771;
+}
+.products_img_head {
+  width: 100%;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 900;
+  padding-top: 15px;
+}
+/* <!-- productss  --> */
+
+/*
+<!-- consultant --> */
+.consultant_container {
+  width: 75% !important;
+}
+
+.constultant_section {
+}
+
+.const_top {
+  display: flex;
+  justify-content: space-between;
+}
+.const_top_para {
+  width: 43%;
+  font-weight: 700;
+  font-size: 18px;
+  color: #000;
+  line-height: 1.68;
+}
+.const_links {
+}
+
+/*
+<!-- consultant --> */

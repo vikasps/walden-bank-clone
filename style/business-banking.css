@@ -171,9 +171,9 @@
 /* <!-- fb_like --> */
 /* <!-- sign-up  --> */
 .sign_up_container {
-  width: 100%;
+  /* width: 100%;
   margin: 0 auto;
-  background-color: red;
+  background-color: red; */
 }
 .sign_up_section {
 }
