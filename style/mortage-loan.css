@@ -1,3 +1,9 @@
+.bg_container-1 {
+  background: url(../images/mortgage-street-i-stock-small.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .mortage_container {
   margin-bottom: 47px;
 }
@@ -443,10 +449,11 @@ input[type="checkbox"]:checked + .checkmark > span:before {
 /*
 <!-- consultant --> */
 .consultant_container {
-  width: 75% !important;
 }
 
 .constultant_section {
+  width: 75%;
+  margin: 0 auto;
 }
 
 .const_top {
@@ -454,14 +461,115 @@ input[type="checkbox"]:checked + .checkmark > span:before {
   justify-content: space-between;
 }
 .const_top_para {
-  width: 43%;
+  width: 50%;
   font-weight: 700;
   font-size: 18px;
   color: #000;
   line-height: 1.68;
 }
-.const_links {
+.const_links a {
+  color: #fff;
+  padding: 15px 10px;
+  background-color: orange;
 }
-
+.const_bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.const_bottom::after {
+  content: "";
+  flex: auto;
+  margin-left: 20px;
+}
+.cnst_b_card {
+  width: 32%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.b_card_img {
+  width: 98px;
+  height: 98px;
+  border: 1px solid green;
+}
+.cnst_details {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  font-weight: 700;
+  font-size: 18px;
+  color: #0c7031;
+}
+.phone {
+  font-size: 12px;
+  font-weight: 800;
+  color: #616469;
+}
+.cnt_number {
+  font-size: 14px;
+  font-weight: 400;
+}
+.txt_bold {
+  font-size: 12px;
+  font-weight: 800;
+  color: #616469;
+}
+.under_line {
+  border-bottom: 1px solid grey;
+}
+.under_line_bold {
+  border-bottom: 2px solid grey;
+  font-size: 14px;
+}
+.contact_link_btn {
+  color: #d7f9e3;
+  font-size: 13px;
+  font-weight: 600;
+}
+.cnt_btn {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #0c7031;
+  padding: 7px 2px;
+  width: 70%;
+}
+.mar-20 {
+  margin-left: 20px;
+}
 /*
 <!-- consultant --> */
+/* <!-- fb_like -- > */
+.like_container {
+  margin-top: 30px;
+}
+.like_section {
+  display: flex;
+  padding: 50px 0px;
+  width: 87%;
+  margin: 0 auto;
+}
+.like_img_cnt {
+}
+.fb_like_img {
+}
+.like_content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.like_cnt {
+  font-size: 24px;
+}
+.fa-quote-left {
+  padding-right: 10px;
+}
+.fa-quote-right {
+  padding-left: 10px;
+}
+.fb_user {
+  font-size: 24px;
+  font-weight: 600;
+}
+/* <!-- fb_like --> */

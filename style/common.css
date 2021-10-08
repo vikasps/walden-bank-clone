@@ -77,7 +77,7 @@ li {
 
 .header_list li {
   color: red;
-  width: 130px;
+  /* width: 130px; */
   padding: 20px 0px;
   text-align: center;
   border-left: 1px solid forestgreen;

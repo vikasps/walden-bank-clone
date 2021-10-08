@@ -6,6 +6,7 @@
   background: url(../images/fall-hero-resized.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  padding-top: 50px;
 }
 
 /* .digi_section {
@@ -124,3 +125,9 @@
 }
 /* <!-- contact -->
 <!-- online --> */
+@media screen and (max-width: 1036px) {
+  .common_img {
+    width: 30%;
+    height: 45%;
+  }
+}

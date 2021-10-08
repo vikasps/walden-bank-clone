@@ -76,6 +76,8 @@
 }
 .service_card {
   width: 19%;
+
+  z-index: 0;
 }
 .service_title {
   /* width: 50%; */
@@ -395,6 +397,7 @@
   margin: 0px 20px;
   border: 1px solid gray;
   border-radius: 5px;
+
   background-color: #e4e8e5;
 }
 .sign_ip::placeholder {
@@ -414,11 +417,17 @@
 .conversation_title {
 }
 @media screen and (max-width: 1070px) {
+  .top_most {
+    width: auto;
+  }
   .per_service {
     flex-direction: column;
   }
   .service_card {
-    width: 100%;
+    width: 35%;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
     flex-direction: column;
   }
   .wsb_news_section,
@@ -431,9 +440,55 @@
     width: 100%;
   }
   .conv_card_section {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 20px;
   }
   .conv_card {
-    width: 50%;
+    width: 45%;
+  }
+  .swiper-slide {
+    display: flex;
+    flex-direction: column;
+  }
+  .test_para {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .per_title,
+  .test_title,
+  .info_tool_title,
+  .conversation_title {
+    font-size: 32px;
+  }
+  .var-2 {
+    padding: 0;
+  }
+  .load_more {
+    width: 35%;
+    margin-top: 30px;
+  }
+  .service_title {
+    font-weight: 400;
+    font-size: 28px;
+  }
+  .sign_up_container {
+    width: 100%;
+  }
+  .sign_up_section {
+    display: flex;
+    flex-direction: column;
+  }
+  .subscribe {
+    width: 22%;
+  }
+  .sign_ip {
+    margin: 20px 0px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .conv_card {
+    width: 100%;
   }
 }
