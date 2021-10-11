@@ -51,10 +51,16 @@
   padding: 70px 0px;
 }
 .common_img {
-  width: 294px;
-  height: 294px;
+  /* width: 294px;
+  height: 294px; */
+  width: 24%;
+  height: 66%;
   position: absolute;
   border-radius: 100%;
+}
+.alter_common_img {
+  width: 25%;
+  height: 37%;
 }
 .val_img {
   top: -108px;
@@ -101,8 +107,10 @@
   right: -58px;
 }
 .w4_link {
-  width: 50%;
-  height: 30%;
+  width: 60%;
+  height: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 /* <!-- bank wise -->
 <!-- contact --> */
@@ -125,6 +133,32 @@
 }
 /* <!-- contact -->
 <!-- online --> */
+
+@media screen and (max-width: 1070px) {
+  .alter_common_img {
+    width: 26% !important;
+    height: 30% !important;
+  }
+  .common_img {
+    width: 23%;
+    height: 49%;
+  }
+  .val_img {
+    top: 20px;
+    left: 40px;
+  }
+  .bnk_img {
+    top: 18px;
+    right: 19px;
+  }
+  .cont_img {
+    top: 38px;
+    left: 10px;
+  }
+  .alter_width {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 1036px) {
   .common_img {
     width: 30%;

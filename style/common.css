@@ -77,7 +77,7 @@ li {
 
 .header_list li {
   color: red;
-  /* width: 130px; */
+  width: 130px;
   padding: 20px 0px;
   text-align: center;
   border-left: 1px solid forestgreen;
@@ -92,6 +92,9 @@ li {
 
 .header_list li.search_area {
   width: 152px;
+}
+.header_list li:last-child {
+  padding: 28px 0px;
 }
 .header_list li.invst {
   width: 154px;
@@ -177,6 +180,9 @@ li {
   }
   .header_section {
     justify-content: space-between;
+  }
+  .header_list li {
+    width: auto;
   }
   .header_rspn_list {
     display: flex;

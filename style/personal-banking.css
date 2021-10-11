@@ -182,3 +182,28 @@
 }
 
 /* <!-- sign-up  --> */
+@media screen and (max-width: 1100px) {
+  .persl_card_section {
+    flex-wrap: wrap;
+  }
+  .persl_card {
+    width: 40%;
+    margin-top: 40px;
+  }
+  .others_card_section {
+    flex-wrap: wrap;
+  }
+  .others_card_section a {
+    display: flex;
+    justify-content: center;
+  }
+  .other_card {
+    width: 40%;
+  }
+  .persl_card {
+    width: 100%;
+  }
+  .persl_img {
+    width: 100%;
+  }
+}
