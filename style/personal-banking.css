@@ -166,22 +166,6 @@
   font-weight: 600;
 }
 /* <!-- fb_like --> */
-/* <!-- sign-up  --> */
-.sign_up_container {
-  width: 100%;
-  margin: 0 auto;
-  background-color: red;
-}
-.sign_up_section {
-}
-.sign_title {
-}
-.sign_ip {
-}
-.subscribe {
-}
-
-/* <!-- sign-up  --> */
 @media screen and (max-width: 1100px) {
   .persl_card_section {
     flex-wrap: wrap;
@@ -192,6 +176,8 @@
   }
   .others_card_section {
     flex-wrap: wrap;
+
+    justify-content: center;
   }
   .others_card_section a {
     display: flex;
@@ -205,5 +191,12 @@
   }
   .persl_img {
     width: 100%;
+  }
+  .like_section {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .like_img_cnt {
+    text-align: center;
   }
 }

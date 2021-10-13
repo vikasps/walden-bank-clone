@@ -70,6 +70,10 @@
   font-size: 45px;
   font-weight: 600;
 }
+.u_tube_frame {
+  width: 64vw;
+  height: 50vh;
+}
 .val_top {
   display: flex;
   flex-direction: column;
@@ -89,8 +93,8 @@
 }
 .app_store {
   padding-top: 20px;
-  width: 348px;
-  height: 90px;
+  width: 89%;
+  height: 100%;
   margin-left: 10px;
 }
 /* <!-- card_valvet -->
@@ -140,8 +144,8 @@
     height: 30% !important;
   }
   .common_img {
-    width: 23%;
-    height: 49%;
+    width: 23% !important;
+    height: 49% !important;
   }
   .val_img {
     top: 20px;

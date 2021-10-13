@@ -377,43 +377,6 @@
   background-color: #fff;
 }
 /* <!-- Join the Conversation --> */
-/* <!-- sign-up  --> */
-.sign_up_container {
-  width: 100%;
-  margin-top: 20px;
-}
-.sign_up_section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.sign_title {
-  font-size: 26px;
-  font-weight: 700;
-}
-.sign_ip {
-  padding: 12px 10px;
-  width: 40%;
-  margin: 0px 20px;
-  border: 1px solid gray;
-  border-radius: 5px;
-
-  background-color: #e4e8e5;
-}
-.sign_ip::placeholder {
-  font-weight: 600;
-}
-.subscribe {
-  background-color: #f97d21;
-  display: inline-block;
-  width: 10%;
-  text-align: center;
-  padding: 12px 0px;
-  border-radius: 10px;
-  font-weight: 900;
-}
-
-/* <!-- sign-up  --> */
 .conversation_title {
 }
 @media screen and (max-width: 1070px) {
@@ -471,19 +434,6 @@
   .service_title {
     font-weight: 400;
     font-size: 28px;
-  }
-  .sign_up_container {
-    width: 100%;
-  }
-  .sign_up_section {
-    display: flex;
-    flex-direction: column;
-  }
-  .subscribe {
-    width: 22%;
-  }
-  .sign_ip {
-    margin: 20px 0px;
   }
 }
 

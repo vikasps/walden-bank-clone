@@ -195,4 +195,17 @@ li {
   .fa-bars {
     font-size: 37px;
   }
+  .sign_up_container {
+    width: 100%;
+  }
+  .sign_up_section {
+    display: flex;
+    flex-direction: column;
+  }
+  .subscribe {
+    width: 22%;
+  }
+  .sign_ip {
+    margin: 20px 0px;
+  }
 }
