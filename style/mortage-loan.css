@@ -573,3 +573,76 @@ input[type="checkbox"]:checked + .checkmark > span:before {
   font-weight: 600;
 }
 /* <!-- fb_like --> */
+
+@media screen and (max-width: 1100px) {
+  .form_details {
+    padding: 0 20px;
+    flex-direction: column;
+  }
+  .started_section {
+    width: 100%;
+  }
+  .mort_card_section {
+    flex-direction: column;
+  }
+  .page_title {
+    text-align: center;
+  }
+  .mort_card {
+    width: 100%;
+  }
+  .loan_section {
+    flex-direction: column;
+  }
+  .rates_section {
+    width: 100%;
+  }
+  .rates_table {
+    margin: 0 auto;
+  }
+  .products_card_section {
+    justify-content: center;
+  }
+  .const_bottom {
+    flex-direction: column;
+  }
+  .cnst_b_card {
+    width: 80%;
+  }
+  .mar-20 {
+    margin: 0;
+    margin-top: 20px;
+  }
+  .consultant_container {
+    padding-bottom: 20px;
+  }
+  .like_cnt span {
+    padding: 20px 0px;
+  }
+  .like_section {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .like_img_cnt {
+    text-align: center;
+  }
+  .captcha {
+    margin-top: 15px;
+  }
+  .submit {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 9px 0px;
+  }
+  .loan_container {
+    padding-bottom: 15px;
+  }
+  .rate_bottom {
+    margin-top: 20px;
+  }
+}
+
+.ip_for {
+  width: 100%;
+}
